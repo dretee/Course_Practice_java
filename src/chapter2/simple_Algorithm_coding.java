@@ -15,6 +15,7 @@ public class simple_Algorithm_coding {
         // get the adjective describing the season
         System.out.print("Please what adjective would describe the season? ");
         String adjective = scan.next();
+        scan.close();
         // use all the input to write a sentence
         System.out.print("On a "+ adjective +" "+ season+ " i would normally take in "+ numbers + " cups of tea");
     }
