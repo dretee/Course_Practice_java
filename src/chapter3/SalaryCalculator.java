@@ -8,11 +8,12 @@ A company add a bonus to their employees salary each time they exceed 10 sales
 write a code to automate this
  */
 public class SalaryCalculator {
+    static int BasicSalary = 1000;
+    static int MinimumSalesForBonus = 10;
+    static int bonus = 250;
     public static void main(String[] arg){
         // known variables
-        int BasicSalary = 1000;
-        int MinimumSalesForBonus = 10;
-        int bonus = 250;
+
                 Scanner scan = new Scanner(System.in);
         //getting the name of the staff and the amount of sales and giving the output
         System.out.println(" Please what the name of the staff? ");

@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class averageStudentScore {
     static Scanner scan = new Scanner(System.in);
+    private static int numberOfTestScore = 4;
     public static void main(String[] args){
-        int numberOfTestScore = 4;
+
         System.out.println("enter the number of students: ");
         int numberofstudents = scan.nextInt();
         int i , j;
