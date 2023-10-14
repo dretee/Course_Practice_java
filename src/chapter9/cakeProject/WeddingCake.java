@@ -2,7 +2,7 @@ package chapter9.cakeProject;
 
 public class WeddingCake extends Cake {
     int tires;
-    WeddingCake(int tires){
+    WeddingCake(){
         super("red velvet", 6);
     }
 
@@ -13,7 +13,7 @@ public class WeddingCake extends Cake {
     public void setTires(int tires) {
         this.tires = tires;
     }
-    public double price_the_WeddingCake(int unitPrice) {
+    public double price_the_WeddingCake(double unitPrice) {
         return (unitPrice * tires);
     }
 }
