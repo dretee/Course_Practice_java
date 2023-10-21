@@ -32,7 +32,7 @@ public class InheritanceApplication {
             System.out.println("The area of the " + shape+ " is " + attributes.calculateArea());
         }
         else if (Objects.equals(shape,"square")) {
-            Square properties = new Square();;
+            Square properties = new Square();
             properties.setLength(lenght);
             properties.setWidth(width);
             System.out.println("The area of the " + shape+ " is "+ properties.calculateArea());
